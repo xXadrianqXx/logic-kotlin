@@ -15,8 +15,8 @@ Este repositorio contiene pequeños proyectos y ejercicios que fui desarrollando
     *   **Árbol de Navidad:** (Pide un número y dibuja un árbol de asteriscos.)
     *   (Y así describes los demás que tengas dentro).
 *   **Persistencia de Datos** -> Contiene practica básica de persistencia de datos y manipulación de listas:
-    *   **Guardar Texto** Se guarda un texto básico.
-    *   **Guarda Contenido de una lista** Se guarda el contenido de una lista y se lo recupera y se los organiza como se los guardo.
+    *   **Guardar Texto:** Se guarda un texto básico.
+    *   **Guarda Contenido de una lista:** Se guarda el contenido de una lista y se lo recupera y se los organiza como se los guardo.
     *   **Guarda un data Class:** Guarda un data class contenido en una lista, luego lo recupera y lo vuelve a organizar dentro de la lista.
 
 ## 🚀 Cómo ejecutar
