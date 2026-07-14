@@ -2,6 +2,16 @@
 
 Este repositorio contiene pequeños proyectos y ejercicios que fui desarrollando mientras aprendía Kotlin. Son scripts independientes que resuelven problemas básicos de lógica.
 
+## 📂 Contenido
+
+*   **01-Logica** -> Práctica de algoritmos para reforzar la lógica.
+
+*   **02-Persistencia-TXT** -> Práctica de persistencia de datos en archivos .txt.
+
+
+**Nota:** Se agrego un README en cada carpeta que explica que contiene cada script.
+
+---
 
 ## 🚀 Cómo ejecutar
 
