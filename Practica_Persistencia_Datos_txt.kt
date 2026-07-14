@@ -10,7 +10,7 @@ data class Task(
 fun main(){
     val list = listOf(Task(1,"Adrian","^"),Task(2,"Welinton","l"),Task(3,"Juan","y"))
     println("Lista Inicial: $list")
-    val file = File("Prueba2.kt")
+    val file = File("Prueba2.txt")
 
     val listLines = list.joinToString("\n") {list -> "${list.id}|${list.nombre}|${list.data}"}//Separa el contenido de cada Task en una linea
 
