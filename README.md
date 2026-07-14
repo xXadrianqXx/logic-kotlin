@@ -2,22 +2,6 @@
 
 Este repositorio contiene pequeños proyectos y ejercicios que fui desarrollando mientras aprendía Kotlin. Son scripts independientes que resuelven problemas básicos de lógica.
 
-## 📂 Contenido
-
-*   **Calculadora.kt** -> Una calculadora básica que pide dos números y una operación (+, -, *, ÷, %).
-*   **AppPIT.kt** -> Una app de consola con un menú que permite:
-    *   Ver todas las tablas de multiplicar (del 1 al 12).
-    *   Ver una tabla de multiplicar específica (la que el usuario elija).
-    *   Sumar números pares dentro de un rango.
-    *   Sumar números impares dentro de un rango.
-*   **Fibonacci.kt** -> Contiene varios ejercicios clásicos de lógica:
-    *   **Sucesión de Fibonacci:** Genera los primeros N números de la serie.
-    *   **Árbol de Navidad:** (Pide un número y dibuja un árbol de asteriscos.)
-    *   (Y así describes los demás que tengas dentro).
-*   **Practica_Persistencia_Datos_txt.kt** -> Contiene practica básica de persistencia de datos y manipulación de listas:
-    *   **Guardar Texto:** Se guarda un texto básico.
-    *   **Guarda Contenido de una lista:** Se guarda el contenido de una lista y se lo recupera y se los organiza como se los guardo.
-    *   **Guarda un data Class:** Guarda un data class contenido en una lista, luego lo recupera y lo vuelve a organizar dentro de la lista.
 
 ## 🚀 Cómo ejecutar
 
