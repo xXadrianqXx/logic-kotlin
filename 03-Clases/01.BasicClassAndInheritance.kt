@@ -64,7 +64,7 @@ fun vehiculos(){
     val carro = Camioneta("Toyota","Max", 7)
 
     moto.arrancar()
-    //Se comprobo que se puede usar directamente los parametros de la clase.
+    //Se comprobo que se puede usar directamente los parametros de la clase. Pero no se puede usar los parametros si no llevan val o var
     println("La moto es deportiva: ${if (moto.deportiva ==true)"Verdadero" else "Falso"}")
 
     carro.arrancar()
