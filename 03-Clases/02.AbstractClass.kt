@@ -13,6 +13,7 @@ abstract class Figura{
 
 class Triangulo(val l1: Double, val l2: Double, val l3: Double): Figura(){
 // Es obligatorio usar override para completar la funcion.
+//Mi intencion era hacer un triangulo rectangulo
     override fun area():Double = (l1+l2+l3)/2
 
     override fun perimetro(): Double = l1+l2+l3
@@ -67,9 +68,9 @@ class Triangulo2(nombre: String, val l1:Double, val l2: Double, val l3:Double, v
         require(l2 > 0) {"IllegalArgumentException"}
         require(l3 > 0) {"IllegalArgumentException"}
     }
-
+// Formula del area deo triangulorectangulo.
     override fun area(): Double = (base * altura)/2
-
+    
     override fun perimetro(): Double = l1+l2+l3
 }
 
