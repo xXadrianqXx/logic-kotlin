@@ -8,6 +8,8 @@ Este repositorio contiene pequeños proyectos y ejercicios que fui desarrollando
 
 *   **02-Persistencia-TXT** -> Práctica de persistencia de datos en archivos .txt.
 
+*   **03-Clases** -> Practica de manipulacion de Objetos.
+
 
 **Nota:** Se agrego un README en cada carpeta que explica que contiene cada script.
 

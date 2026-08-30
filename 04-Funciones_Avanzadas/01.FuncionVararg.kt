@@ -5,12 +5,14 @@ fun printData() {
 }
 
 fun main() {
-    printlData()
 
     //Funcion lambda
     val lambda : (String) -> Unit = {println(it)}
 
+    printData()
     lambda("Funcion Lambda")
+
+    
 
     
 }
