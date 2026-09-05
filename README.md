@@ -10,6 +10,8 @@ Este repositorio contiene pequeños proyectos y ejercicios que fui desarrollando
 
 *   **03-Clases** -> Practica de manipulacion de Objetos.
 
+*  **04-Funciones** -> Práctica de funciones avanzadas.
+
 
 **Nota:** Se agrego un README en cada carpeta que explica que contiene cada script.
 
