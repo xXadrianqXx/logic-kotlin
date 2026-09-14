@@ -1,5 +1,36 @@
 fun main(){
-    println("GG")
+    //Tenemos una funcion actual y es mas verbiza pero mas facil de usar. Al igual que .exe() tambien se ejecuta en otra terminal.
+    val process = ProcessBuilder("pwd").start()
+
+    //iputStream tambien se puede utlizar para guardar el resultado del proceso de processBuilder().
+    val resultado = process.inputStream.bufferedReader().readText()
+
+    println(resultado)
+
+    //Tambien podemos convertir el processBulider() en el 'terminal' actual y muetre el resultado directamentte con inheritIO().
+
+    ProcessBuilder("clear").inheritIO().start()
+
+// Para ejecutar comandos con -c o -- y para redireccionar o imprimir los errores en el mismo inputStream usamos redirectErrorStream(true) 
+    val process2 = ProcessBuilder("/bin/sh", "-c", "git log --oneline")
+        .redirectErrorStream(true)
+        .start()
+    
+    val salida = process2.inputStream.bufferedReader().readText()
+    //Espera a que termine el proceso.
+    process.waitFor()
+    println("Historial de commits:\n$salida")
+/* Lista de comnados
+    # ProcessBuilder (Configuración)
+    - command(), directory(), environment()
+    - redirectOutput(), redirectError(), redirectErrorStream()
+    - start() → Devuelve Process
+    
+    # Process (Control)
+    - inputStream, errorStream, outputStream
+    - waitFor(), exitValue(), isAlive()
+    - destroy(), destroyForcibly(), pid()
+    */
 
 }
 
