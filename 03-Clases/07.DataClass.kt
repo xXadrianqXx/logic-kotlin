@@ -15,5 +15,10 @@ fun main(){
     //equals
     println(ana == anaMayor)
 
+    //Destructores
+    val (nombre, edad) = ana
+    
+    println(nombre)
+    println(edad)
     
 }
